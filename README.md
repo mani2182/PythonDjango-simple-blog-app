@@ -13,27 +13,27 @@ PythonDjango-simple-blog-app
 
 Activate it:
 On Windows:
-> venv\Scripts\activate
+   > venv\Scripts\activate
 On Mac: 
-> source venv/bin/activate
+   > source venv/bin/activate
 
 4. Install Django
   Install Django using pip:
-  > pip install django
+     > pip install django
 
 5. Run Migrations
    Initialize the database:
-   > python manage.py makemigrations
-   > python manage.py migrate
+      > python manage.py makemigrations
+      > python manage.py migrate
 
 6. Create Superuser (Admin Login)
 To access the admin panel:
-> python manage.py createsuperuser
+   > python manage.py createsuperuser
 (Enter username, email, password when prompted.)
 
 7. Run the Server
 Start the local development server:
-> python manage.py runserver
+   > python manage.py runserver
 
 8. Visit in your browser:
    http://127.0.0.1:8000
@@ -51,9 +51,10 @@ Start the local development server:
 | Admin Panel      | `/admin/`            |
 
 **Please run this one command to create the missing migration for your blog models:**
-> python manage.py makemigrations blog
-> python manage.py migrate
-> python manage.py runserver
+   > python manage.py makemigrations blog
+   > python manage.py migrate
+   > python manage.py runserver
+
 http://127.0.0.1:8000
 
 --------------------------- Thank you -------------------------
